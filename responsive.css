@@ -1,0 +1,229 @@
+/*This is For Tablet*/
+
+@media(max-width:1000px) {
+    .container {
+        flex-flow: column wrap;
+        flex-direction: column-reverse;
+        flex: 100%;
+    }
+
+    .rcontainer {
+        flex-flow: column wrap;
+        flex-direction: column-reverse;
+        flex: 100%;
+    }
+
+    .banner_hero {
+        padding: 90px 30px;
+    }
+
+    .edu1 {
+        padding: 70px 30px 0px 30px;
+    }
+
+    .edu2 {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .edu3 {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .edu_content {
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+
+    .baner_content {
+        margin-top: 50px;
+        padding: 0px 50px;
+    }
+
+    edu1_image {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer {
+        flex-flow: column wrap;
+        padding: 30px 0;
+    }
+
+    .footer_logo {
+        margin-left: 0;
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foot1 {
+        margin-bottom: 15px;
+    }
+
+    .profile_image {
+        padding: 0;
+
+    }
+
+}
+
+/*This is For smarthphone*/
+
+@media(max-width:670px) {
+    .header_right {
+        display: none;
+        margin: auto;
+        flex-grow: 4;
+
+
+    }
+
+    .header_right li {
+        margin-right: 5px;
+        margin-left: 10%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .header_right a {
+        font-size: 14px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu {
+        width: 41px;
+        height: 27px;
+        background-image: url(img/menu.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        margin-top: 8px;
+    }
+
+
+    .logo {
+        margin-left: 28px;
+    }
+
+    .banner_hero {
+        padding: 90px 10px;
+    }
+
+    .edu1 {
+        padding: 30px 10px;
+    }
+
+    .edu2 {
+        padding: 20px 10px 10px 10px;
+    }
+
+    .edu3 {
+        padding: 0px 10px;
+        margin-top: 30px;
+    }
+
+    .edu1_image {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formemail {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .contact_form {
+        padding: 30px 10px;
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    .form textarea {
+        width: 100%;
+    }
+
+    .contact_form input[type=submit] {
+        width: 100%;
+
+    }
+
+    .img_style {
+        width: 100%;
+    }
+
+    .profile_image {
+        width: 80%;
+        margin-left: 30px;
+
+    }
+
+
+    .baner_content {
+        padding: 10px 10px;
+    }
+
+    .edu_title {
+        margin-left: 10px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    .edu_content h2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .baner_content p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin: 0px;
+    }
+
+    .header_ {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:565px) {
+    .edu1_image {
+        padding: 10px;
+    }
+}
+
+@media(max-width:350px) {
+
+    .header_right a {
+        font-size: 14px;
+    }
+
+    .header_right li {
+        margin-right: 0px;
+        margin-left: 20px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+
+    }
+
+    .menu {
+        padding-right: 20px;
+    }
+
+}
